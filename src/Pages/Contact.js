@@ -1,13 +1,23 @@
 import React, {Component} from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import Button from 'react-bootstrap/Button';
 
 class Contact extends Component {
+    constructor(props) {
+        super(props);
+        this.myRef = React.createRef()   // Create a ref object
+    }
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <ScrollableAnchor id={"contact"}>
                 <div>
                     <h2>Contact</h2>
-                    <p>
+                    <p className="p">
                         I love pudding chocolate cake icing dessert candy canes.
                         Ice cream cheesecake chocolate bar candy canes I love tootsie roll I love brownie. Brownie
                         cheesecake chocolate halvah toffee cupcake chocolate cookie. Topping I love jelly candy muffin
@@ -26,6 +36,7 @@ class Contact extends Component {
 
                         Candy jelly-o fruitcake macaroon caramels jelly beans. Lollipop marzipan cake chocolate. I love I love pastry. Dessert I love jelly-o cake gummies caramels marzipan dragée cake. Icing sweet roll wafer chocolate bar toffee. Dessert soufflé cheesecake cake. Pie candy cupcake pie I love. Caramels pastry gingerbread dessert pudding macaroon I love donut soufflé. Lollipop marshmallow chocolate chocolate bar I love pastry. Croissant chocolate cake bonbon lemon drops cake bear claw candy canes. I love gummies bear claw tiramisu marzipan candy liquorice. Gummi bears sugar plum jelly beans pastry muffin topping marzipan soufflé sesame snaps.
                     </p>
+                    <Button variant="primary" onClick={this.componentDidMount}>Back to Top</Button>
                 </div>
             </ScrollableAnchor>
         );

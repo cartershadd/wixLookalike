@@ -1,13 +1,23 @@
 import React, {Component} from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import Button from "react-bootstrap/Button";
 
 class Home extends Component {
+    constructor(props) {
+        super(props);
+        this.myRef = React.createRef()   // Create a ref object
+    }
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <ScrollableAnchor id={"home"}>
                 <div>
                     <h2>Home</h2>
-                    <p>
+                    <p className="p">
                         Cupcake ipsum dolor sit amet sweet dessert.
                         Pastry cake I love icing I love cookie I love croissant.
                         Chocolate croissant cake sesame snaps pudding.
@@ -25,6 +35,7 @@ class Home extends Component {
 
                         Cake jelly cotton candy cheesecake I love cupcake. Marzipan brownie apple pie cotton candy gummi bears brownie sesame snaps I love gummies. Tootsie roll I love chocolate cake pie croissant gummi bears chupa chups ice cream I love. Ice cream I love toffee danish. Topping chupa chups powder cake cotton candy chupa chups. Sweet tart sweet roll chocolate cake apple pie. Dragée I love bear claw tiramisu I love liquorice tootsie roll. Croissant tootsie roll chocolate cake lemon drops dessert tiramisu gummies I love. Sweet roll macaroon liquorice cupcake wafer jelly beans. Candy canes liquorice cake. Topping I love I love brownie cupcake. Donut muffin I love croissant cake danish I love toffee. Biscuit gummi bears jelly beans sugar plum cheesecake I love cotton candy cake. Pastry icing pastry chocolate bar cake carrot cake.
                     </p>
+                    <Button variant="primary" onClick={this.componentDidMount}>Back to Top</Button>
                 </div>
             </ScrollableAnchor>
         );
