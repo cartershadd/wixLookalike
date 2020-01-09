@@ -9,7 +9,7 @@ import Container from "./Pages/Container";
 function App() {
     return (
         <BrowserRouter>
-            <div className="container">
+            <div className="app">
                 <NavPage/>
                 <Route path="/" component={Container}/>
             </div>
