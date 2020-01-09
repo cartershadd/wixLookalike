@@ -102,6 +102,11 @@ body, html {
     margin: 0.25rem;
 }
 
+.work-img {
+    height: 12rem;
+    width: 12rem;
+}
+
 /* Media screen sizing */
 
 @media screen and (max-width: 550px) {

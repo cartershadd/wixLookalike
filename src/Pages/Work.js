@@ -19,7 +19,7 @@ class Work extends Component {
                 <div className="holder-div">
                     <Card className="work">
                         <Card.Title>Work</Card.Title>
-                        <Card.Img variant="top" src="/images/rainbowCake.jpeg"/>
+                        <Card.Img variant="top" className="work-img" src="/images/rainbowCake.jpeg"/>
                         <Card.Body>
                             <Card.Text>
                                 Sesame snaps croissant dragée. Muffin I love chocolate I love pie I love. Candy canes lollipop I love icing marzipan bear claw jujubes.
