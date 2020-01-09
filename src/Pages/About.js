@@ -17,8 +17,8 @@ class About extends Component {
         return (
             <ScrollableAnchor id={"about"}>
                 <div className="section-container">
-                    <Card className="section1" bg="info" text="white">
-                        <Card.Header>About</Card.Header>
+                    <Card className="sections" bg="info" text="white">
+                        <Card.Title>About</Card.Title>
                         <Card.Body>
                             <Card.Title>Candy biscuit carrot cake danish topping.</Card.Title>
                             <Card.Text>

@@ -16,7 +16,7 @@ class Contact extends Component {
     render() {
         return (
             <ScrollableAnchor id={"contact"}>
-                <div>
+                <div className="contact">
                     <Card className="text-center">
                         <Card.Header>Contact</Card.Header>
                         <Card.Body>

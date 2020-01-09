@@ -16,12 +16,12 @@ class Work extends Component {
     render() {
         return (
             <ScrollableAnchor id={"work"}>
-                <div>
-                    <Card className="sections">
+                <div className="holder-div">
+                    <Card className="work">
                         <Card.Title>Work</Card.Title>
                         <Card.Img variant="top" src="rainbowCake.jpeg/" />
                         <Card.Body>
-                            <Card.Text>
+                            <Card.Text style={{margin: '0.25rem'}}>
                                 Sesame snaps croissant dragée. Muffin I love chocolate I love pie I love. Candy canes lollipop I love icing marzipan bear claw jujubes.
 
                                 Gingerbread soufflé donut danish chocolate cake cake donut gingerbread marshmallow. Fruitcake soufflé I love candy. Chocolate bar jelly beans cheesecake chocolate bar chupa chups. Oat cake lemon drops lemon drops sweet I love biscuit lemon drops jujubes.
