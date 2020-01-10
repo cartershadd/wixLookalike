@@ -7,6 +7,8 @@ body, html {
 
 .app {
     padding: 0;
+    background: url(/images/speckles.jpg) no-repeat;
+    background-size: cover;
 }
 
 .btn {
@@ -22,6 +24,7 @@ body, html {
     height: 100%;
 }
 
+/* Back to Top button styles */
 .back-to-top {
     box-shadow: 0.2rem 0.2rem 0.5rem #888888;
     border-radius: 0.25rem;
@@ -29,11 +32,7 @@ body, html {
     height: 2.5rem;
 }
 
-.holder-div {
-    height: 100vh;
-    margin: 0.5rem;
-}
-
+/* About styles */
 .sections {
     margin: 0.5rem;
     box-shadow: 0.2rem 0.2rem 0.5rem #888888;
@@ -48,8 +47,21 @@ body, html {
     margin: 0.25rem;
 }
 
-.holder-div {
-    height: 85vh;
+.image {
+    height: 22rem;
+    min-height: 22rem;
+    min-width: 22rem;
+    width: 22rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem #888888;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0.25rem;
+    margin: 0.25rem;
+}
+
+/* Work Section */
+.work-div {
+    height: 90vh;
     margin: 0.25rem;
 }
 
@@ -69,14 +81,23 @@ body, html {
     align-self: center;
 }
 
+/* Contact page */
 .contact {
     margin: 0.5rem;
     box-shadow: 0.2rem 0.2rem 0.5rem #888888;
     border-radius: 0.25rem;
 }
 
+/* Home section styling */
+.holder-div {
+    height: 90vh;
+    margin: 0.25rem;
+    display: flex;
+    flex-direction: row;
+}
+
 .home1, .home2 {
-    height: 50%;
+    width: 50%;
     margin: 0.25rem;
     padding: 3rem;
     border-radius: 0.25rem;
@@ -101,18 +122,6 @@ body, html {
     margin: 0.5rem;
 }
 
-.image {
-    height: 22rem;
-    min-height: 22rem;
-    min-width: 22rem;
-    width: 22rem;
-    box-shadow: 0.2rem 0.2rem 0.5rem #888888;
-    border-radius: 50%;
-    object-fit: cover;
-    padding: 0.25rem;
-    margin: 0.25rem;
-}
-
 /* Media screen sizing */
 
 @media screen and (max-width: 550px) {
@@ -128,5 +137,15 @@ body, html {
 
     p, .card-text {
         font-size: small;
+    }
+
+    .holder-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home1, .home2 {
+        width: fit-content;
+        height: 50%;
     }
 }

@@ -16,7 +16,7 @@ class Work extends Component {
     render() {
         return (
             <ScrollableAnchor id={"work"}>
-                <div className="holder-div">
+                <div className="work-div">
                     <Card className="work">
                         <Card.Title>Work</Card.Title>
                         <img className="work-img" src="/images/placeholder.png" alt="placeholder"/>
