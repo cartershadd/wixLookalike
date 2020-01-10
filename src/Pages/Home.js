@@ -40,10 +40,6 @@ class Home extends Component {
                             <Card.Text>
                                 Chocolate croissant cake sesame snaps pudding. I love soufflé fruitcake bonbon.
                                 Marshmallow dessert apple pie.
-                                Lemon drops chocolate oat cake sweet roll I love macaroon candy canes.
-                                Lemon drops apple pie caramels chocolate. Fruitcake bear claw I love halvah.
-                                I love dragée icing cake fruitcake jelly icing caramels.
-                                Jelly beans soufflé cake candy canes jelly-o halvah.
                             </Card.Text>
                         </Card.Body>
                         <Button variant="primary" className="back-to-top" onClick={this.componentDidMount}>Back to

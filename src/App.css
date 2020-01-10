@@ -49,7 +49,7 @@ body, html {
 }
 
 .holder-div {
-    height: 90vh;
+    height: 85vh;
     margin: 0.25rem;
 }
 
@@ -59,6 +59,14 @@ body, html {
     box-shadow: 0.2rem 0.2rem 0.5rem #888888;
     border-radius: 0.25rem;
     padding: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.work-img {
+    height: 12rem;
+    width: 15rem;
+    align-self: center;
 }
 
 .contact {
@@ -70,6 +78,9 @@ body, html {
 .home1, .home2 {
     height: 50%;
     margin: 0.25rem;
+    padding: 3rem;
+    border-radius: 0.25rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem #888888;
 }
 
 /* Navigations */
@@ -102,11 +113,6 @@ body, html {
     margin: 0.25rem;
 }
 
-.work-img {
-    height: 12rem;
-    width: 12rem;
-}
-
 /* Media screen sizing */
 
 @media screen and (max-width: 550px) {
@@ -118,5 +124,9 @@ body, html {
 
     .image {
         align-self: center;
+    }
+
+    p, .card-text {
+        font-size: small;
     }
 }
