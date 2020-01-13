@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92cebc5b-46b8-44b0-8b91-96593acca45b" name="Default Changelist" comment="" />
+    <list default="true" id="92cebc5b-46b8-44b0-8b91-96593acca45b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/singlescroll" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1W7Mcp8vI4erwqHlowUcx8VzTPf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -25,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -66,8 +71,55 @@
       <option name="presentableId" value="Default" />
       <updated>1578496261477</updated>
       <workItem from="1578496265980" duration="1008000" />
-      <workItem from="1578497338854" duration="9422000" />
+      <workItem from="1578497338854" duration="22659000" />
+      <workItem from="1578665996009" duration="5478000" />
+      <workItem from="1578696019165" duration="164000" />
+      <workItem from="1578696949286" duration="3203000" />
+      <workItem from="1578927769880" duration="153000" />
     </task>
+    <task id="LOCAL-00001" summary="added image and media styles">
+      <created>1578542573446</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578542573447</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed size issues, made sections take up most of the page, fixed overlap issues">
+      <created>1578586753250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578586753250</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed overlap and sizing issues on mobile and fullscreen">
+      <created>1578598213853</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578598213853</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed overlap and sizing issues on mobile and fullscreen">
+      <created>1578598732418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578598732418</updated>
+    </task>
+    <task id="LOCAL-00005" summary="more css changes made">
+      <created>1578668190357</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578668190357</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added speckled background for fun">
+      <created>1578672709290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578672709290</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,16 +130,28 @@
       <path value="$PROJECT_DIR$/singlescroll" />
       <path value="$PROJECT_DIR$/singlescrollold" />
     </ignored-roots>
+    <MESSAGE value="added image and media styles" />
+    <MESSAGE value="fixed size issues, made sections take up most of the page, fixed overlap issues" />
+    <MESSAGE value="fixed overlap and sizing issues on mobile and fullscreen" />
+    <MESSAGE value="more css changes made" />
+    <MESSAGE value="added speckled background for fun" />
+    <option name="LAST_COMMIT_MESSAGE" value="added speckled background for fun" />
   </component>
   <component name="WindowStateProjectService">
     <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578497376493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578497376493" />
-    <state x="291" y="175" key="FileChooserDialogImpl" timestamp="1578505673953">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1578672708254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="291" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578505673953" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824/7.-1080.1920.1040@0.0.1536.824" timestamp="1578672708254" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578668189372" />
+    <state x="291" y="175" key="FileChooserDialogImpl" timestamp="1578673979782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="291" y="175" key="FileChooserDialogImpl/0.0.1536.824/7.-1080.1920.1040@0.0.1536.824" timestamp="1578673979782" />
+    <state x="291" y="175" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578542267272" />
     <state x="345" y="310" width="258" height="210" key="Github.ShareDialog" timestamp="1578505624092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -96,5 +160,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578497565997" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1578598749732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/7.-1080.1920.1040@0.0.1536.824" timestamp="1578598749732" />
+    <state x="463" y="144" width="609" height="536" key="find.popup" timestamp="1578597566073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="144" width="609" height="536" key="find.popup/0.0.1536.824/7.-1080.1920.1040@0.0.1536.824" timestamp="1578597566073" />
   </component>
 </project>
