@@ -20,7 +20,7 @@ class Work extends Component {
                     <Jumbotron className='about'>
                         <h2>so you're just gonna scroll by without saying meowdy?</h2>
                     </Jumbotron>
-                    <Button variant="primary" className="back-to-top" onClick={this.componentDidMount}>Back to
+                    <Button variant="info" className="bck-about" onClick={this.componentDidMount}>Back to
                         Top</Button>
                 </div>
             </ScrollableAnchor>

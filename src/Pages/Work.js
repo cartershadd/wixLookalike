@@ -24,7 +24,7 @@ class Work extends Component {
                             </Card.Text>
                             <img className="work-img" src="/images/roundBaby.jpg" alt="cat"/>
                         </Card.Body>
-                        <Button variant="primary" className="back-to-top" onClick={this.componentDidMount}>Back to Top</Button>
+                        <Button variant="info" className="back-to-top" onClick={this.componentDidMount}>Back to Top</Button>
                     </Card>
                 </div>
             </ScrollableAnchor>

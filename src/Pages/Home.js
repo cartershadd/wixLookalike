@@ -92,14 +92,14 @@ class Home extends Component {
                                     {' '}
                                 </p>
                                 <footer className="blockquote-footer">
-                                    Pastry Cake in <cite title="ily">
-                                    I LOVE ICING I LOVE COOKIE I LOVE CROISSANT
+                                    Baby in <cite title="ily">
+                                    Memoirs of a Fuzzy Boy
                                 </cite>
-                                    <Button variant="primary" className="back-to-top" onClick={this.componentDidMount}>Back
-                                        to
-                                        Top</Button>
                                 </footer>
                             </blockquote>
+                            <Button align="center" variant="info" className="back-to-top" onClick={this.componentDidMount}>Back
+                                to
+                                Top</Button>
                         </Card.Body>
                     </Card>
                 </div>

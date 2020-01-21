@@ -8,17 +8,19 @@ body, html {
 .app {
     padding: 0;
     background: url(/images/blueSpeckbackground.jpg) repeat;
-    background-size: cover;
+    background-size: contain;
     margin: 0;
     width: 100%;
     height: 100%;
+    text-align: center;
 }
 
 .tupperware {
-     display: flex;
-     flex-direction: column;
-     align-content: center;
- }
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
 
 .btn {
     margin: 0.5rem;
@@ -30,10 +32,22 @@ body, html {
 
 /* Back to Top button styles */
 .back-to-top {
+    border-radius: 0.25rem;
+    width: 7rem;
+    height: 2.5rem;
+    bottom: 0;
+    justify-content: center!important;
+    text-align: center!important;
+}
+
+.bck-about {
     box-shadow: 0.2rem 0.2rem 0.5rem #888888;
     border-radius: 0.25rem;
     width: 7rem;
     height: 2.5rem;
+    margin: 0 auto 0.25rem auto;
+    justify-content: center!important;
+    text-align: center!important;
 }
 
 /* Cat styles  */
@@ -41,14 +55,19 @@ body, html {
     height: 20rem;
     width: 15rem;
     margin: auto;
-    border-radius: 4rem;
+    border-radius: 0.25rem;
     align-content: center;
     justify-content: center;
-    box-shadow: 0.25rem 0.5rem 0.5rem #888888;
+    object-fit: contain;
 }
 
 .cat-body {
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
 }
 
 .cat-div {
@@ -57,25 +76,27 @@ body, html {
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    text-align: center;
 }
 
 .cat-card {
     margin: 0.5rem;
     padding: 1.5rem;
-    border-radius: 3rem;
-    box-shadow: 0.5rem 0.5rem 0.5rem #888888;
     width: 50%;
+    border-radius: 0.25rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #888888;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .cc-img {
+    object-fit: contain;
     height: 25rem;
     width: 100%;
     align-content: center;
     margin: auto;
-    border-radius: 3rem;
+    border-radius: 0.25rem;
 }
 
 /* Work Section */
@@ -87,9 +108,9 @@ body, html {
 }
 
 .work-text {
-    border-color: blueviolet;
+    border-color: #17a2b8;
     border-style: double;
-    border-radius: 3rem;
+    border-radius: 0.25rem;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -100,7 +121,6 @@ body, html {
     height: 90vh;
     margin: 0.5rem;
     box-shadow: 0.5rem 0.5rem 0.5rem #888888;
-    border-radius: 1rem;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -120,7 +140,7 @@ body, html {
 
 /* Contact page */
 .contact {
-    margin: 1rem;
+    margin: 0.5rem;
     box-shadow: 0.2rem 0.2rem 0.5rem #888888;
     border-radius: 0.25rem;
 }
@@ -132,19 +152,22 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    text-align: center;
 }
 
 .about {
     height: 90vh;
-    margin: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
     box-shadow: 0.5rem 0.5rem 0.5rem #888888;
-    border-radius: 1rem;
-    padding: 1rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
     align-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/images/pawBig.png) no-repeat center center;
+    opacity: 1;
+    background: white url(/images/pawBig.png) no-repeat center center;
+    text-align: center;
 }
 
 /* Navigations */
@@ -190,10 +213,5 @@ body, html {
 @media screen and (min-width: 830px) {
     .cat-img {
         width: 50%;
-        height: 30rem;
-    }
-
-    .cc-img {
-        height: 35rem;
     }
 }
