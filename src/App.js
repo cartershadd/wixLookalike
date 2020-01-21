@@ -6,10 +6,10 @@ import Container from "./Pages/Container";
 
 function App() {
     return (
-            <div className="app">
-                <NavPage/>
-                <Container/>
-            </div>
+        <div className="app">
+            <NavPage/>
+            <Container/>
+        </div>
     )
 }
 

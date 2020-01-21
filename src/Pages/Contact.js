@@ -20,18 +20,18 @@ class Contact extends Component {
                     <Card className="text-center">
                         <Card.Header>Contact</Card.Header>
                         <Card.Body>
-                            <Card.Title>I love jelly candy canes.</Card.Title>
+                            <Card.Title>Have your beauty sleep 18 hours - checked.</Card.Title>
                             <Card.Text>
-                                Marshmallow cake dessert.
+                                Has closed eyes but still sees you
                             </Card.Text>
                             <Button
-                                variant="primary"
+                                variant="info"
                                 className="back-to-top"
                                 onClick={this.componentDidMount}>
                                 Back to Top
                             </Button>
                         </Card.Body>
-                        <Card.Footer className="text-muted">Chocolate cake brownie topping.</Card.Footer>
+                        <Card.Footer className="text-muted">Rub whiskers on bare skin</Card.Footer>
                     </Card>
                 </div>
             </ScrollableAnchor>

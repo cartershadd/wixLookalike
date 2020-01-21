@@ -7,9 +7,18 @@ body, html {
 
 .app {
     padding: 0;
-    background: url(/images/speckles.jpg) no-repeat;
+    background: url(/images/blueSpeckbackground.jpg) repeat;
     background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
+
+.tupperware {
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+ }
 
 .btn {
     margin: 0.5rem;
@@ -17,11 +26,6 @@ body, html {
 
 .p {
     margin: 0;
-}
-
-.card-text {
-    width: 100%;
-    height: 100%;
 }
 
 /* Back to Top button styles */
@@ -32,105 +36,138 @@ body, html {
     height: 2.5rem;
 }
 
-/* About styles */
-.sections {
-    margin: 0.5rem;
-    box-shadow: 0.2rem 0.2rem 0.5rem #888888;
-    border-radius: 0.25rem;
-    padding: 3rem;
+/* Cat styles  */
+.cat-img {
+    height: 20rem;
+    width: 15rem;
+    margin: auto;
+    border-radius: 4rem;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0.25rem 0.5rem 0.5rem #888888;
 }
 
-.section-container {
+.cat-body {
+    padding: 0;
+}
+
+.cat-div {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    height: 100vh;
-    margin: 0.25rem;
+    align-content: center;
+    justify-content: center;
 }
 
-.image {
-    height: 22rem;
-    min-height: 22rem;
-    min-width: 22rem;
-    width: 22rem;
-    box-shadow: 0.2rem 0.2rem 0.5rem #888888;
-    border-radius: 50%;
-    object-fit: cover;
-    padding: 0.25rem;
-    margin: 0.25rem;
+.cat-card {
+    margin: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #888888;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cc-img {
+    height: 25rem;
+    width: 100%;
+    align-content: center;
+    margin: auto;
+    border-radius: 3rem;
 }
 
 /* Work Section */
 .work-div {
-    height: 90vh;
-    margin: 0.25rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work-text {
+    border-color: blueviolet;
+    border-style: double;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 1rem;
 }
 
 .work {
-    height: 100%;
+    height: 90vh;
     margin: 0.5rem;
-    box-shadow: 0.2rem 0.2rem 0.5rem #888888;
-    border-radius: 0.25rem;
-    padding: 3rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #888888;
+    border-radius: 1rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .work-img {
-    height: 12rem;
-    width: 15rem;
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem #888888;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0.25rem;
+    margin: 0;
     align-self: center;
 }
 
 /* Contact page */
 .contact {
-    margin: 0.5rem;
+    margin: 1rem;
     box-shadow: 0.2rem 0.2rem 0.5rem #888888;
     border-radius: 0.25rem;
 }
 
-/* Home section styling */
-.holder-div {
-    height: 90vh;
-    margin: 0.25rem;
+/* About page styling */
+.about-div {
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
-.home1, .home2 {
-    width: 50%;
-    margin: 0.25rem;
-    padding: 3rem;
-    border-radius: 0.25rem;
-    box-shadow: 0.2rem 0.2rem 0.5rem #888888;
+.about {
+    height: 90vh;
+    margin: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #888888;
+    border-radius: 1rem;
+    padding: 1rem;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/images/pawBig.png) no-repeat center center;
 }
 
 /* Navigations */
 .nav {
-    background-color: #007bff!important;
+    background: linear-gradient(cadetblue, cornflowerblue);
     display: flex;
     align-items: center;
     flex-flow: row nowrap;
-    justify-content: flex-start;
-    position: relative;
     padding: 0;
-    margin: 0;
     width: 100%;
 }
 
 .nav > a {
     color: black;
     margin: 0.5rem;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 /* Media screen sizing */
 
-@media screen and (max-width: 550px) {
-    .section-container {
-        display: flex;
-        flex-direction: column;
-        height: 150vh;
-    }
-
+@media screen and (max-width: 700px) {
     .image {
         align-self: center;
     }
@@ -139,13 +176,24 @@ body, html {
         font-size: small;
     }
 
-    .holder-div {
+    .cat-div {
         display: flex;
         flex-direction: column;
     }
 
-    .home1, .home2 {
+    .cat-card {
         width: fit-content;
         height: 50%;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    .cat-img {
+        width: 50%;
+        height: 30rem;
+    }
+
+    .cc-img {
+        height: 35rem;
     }
 }

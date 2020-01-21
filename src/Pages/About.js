@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import Button from "react-bootstrap/Button";
-import Card from 'react-bootstrap/Card';
+import Jumbotron from 'react-bootstrap/Jumbotron'
 
-class About extends Component {
+class Work extends Component {
     constructor(props) {
         super(props);
         this.myRef = React.createRef()   // Create a ref object
@@ -16,30 +16,16 @@ class About extends Component {
     render() {
         return (
             <ScrollableAnchor id={"about"}>
-                <div className="section-container">
-                    <Card className="sections" bg="info" text="white">
-                        <Card.Title>About</Card.Title>
-                        <Card.Body>
-                            <Card.Title>Candy biscuit carrot cake danish topping.</Card.Title>
-                            <Card.Text>
-                                Jelly-o I love jelly beans oat cake cake cheesecake croissant jelly.
-                                Marshmallow tiramisu marshmallow gingerbread gingerbread.
-                                Jelly danish biscuit chupa chups gummi bears topping.
-                                Cotton candy oat cake icing biscuit pastry bear claw.
-                            </Card.Text>
-                        </Card.Body>
-                        <Button
-                            variant="primary"
-                            className="back-to-top"
-                            onClick={this.componentDidMount}>
-                            Back to Top
-                        </Button>
-                    </Card>
-                    <img src="/images/rainbowCake.jpeg" alt="cake" className="image"/>
+                <div className="about-div">
+                    <Jumbotron className='about'>
+                        <h2>so you're just gonna scroll by without saying meowdy?</h2>
+                    </Jumbotron>
+                    <Button variant="primary" className="back-to-top" onClick={this.componentDidMount}>Back to
+                        Top</Button>
                 </div>
             </ScrollableAnchor>
         );
     }
 }
 
-export default About;
+export default Work;

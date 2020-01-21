@@ -18,13 +18,11 @@ class Work extends Component {
             <ScrollableAnchor id={"work"}>
                 <div className="work-div">
                     <Card className="work">
-                        <Card.Title>Work</Card.Title>
-                        <img className="work-img" src="/images/placeholder.png" alt="placeholder"/>
-                        <Card.Body>
+                        <Card.Body className="work-text">
                             <Card.Text>
-                                Sesame snaps croissant dragée. Muffin I love chocolate I love pie I love. Candy canes lollipop I love icing marzipan bear claw jujubes.
-                                Gingerbread soufflé donut.
+                                I like big cats and i can not lie i bet my nine lives on you-oooo-ooo-hooo i like to spend my days sleeping and eating fishes that my human fished for me we live on a luxurious yacht, sailing proudly under the sun, i like to walk on the deck, watching the horizon, dreaming of a good bowl of milk
                             </Card.Text>
+                            <img className="work-img" src="/images/roundBaby.jpg" alt="cat"/>
                         </Card.Body>
                         <Button variant="primary" className="back-to-top" onClick={this.componentDidMount}>Back to Top</Button>
                     </Card>

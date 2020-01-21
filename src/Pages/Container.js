@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
 import Contact from "./Contact";
 import Home from './Home';
-import Work from './Work';
 import About from './About';
+import Work from './Work';
 
 class Container extends Component {
     render() {
         return (
-            <div>
+            <div className="tupperware">
                 <Home/>
-                <About/>
                 <Work/>
+                <About/>
                 <Contact/>
             </div>
         );
